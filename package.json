@@ -1,6 +1,6 @@
 {
 	"name": "loxoui",
-	"version": "0.0.8",
+	"version": "0.0.9",
 	"scripts": {
 		"dev": "vite dev",
 		"build": "vite build && npm run prepack",
@@ -26,7 +26,7 @@
 			"types": "./dist/index.d.ts",
 			"svelte": "./dist/index.js"
 		},
-		"./loxoui.css": "./src/loxoui.css"
+		"./loxoui.css": "./lib/loxoui.css"
 	},
 	"peerDependencies": {
 		"svelte": "^5.0.0"
