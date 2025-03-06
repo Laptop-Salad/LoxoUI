@@ -1,3 +1,6 @@
+@import 'tailwindcss';
+@plugin '@tailwindcss/forms';
+
 @layer loxoui {
     .red { @apply text-red-600 bg-red-200;}
     .red.inverse { @apply text-red-200 bg-red-600;}

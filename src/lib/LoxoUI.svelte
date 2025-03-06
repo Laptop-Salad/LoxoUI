@@ -1,3 +1,3 @@
 <script>
-    import "./lib/loxoui.css";
+    import "./loxoui.css";
 </script>
