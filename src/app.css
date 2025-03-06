@@ -1,4 +1,4 @@
 @import 'tailwindcss';
-@import './loxoui.css';
+@import 'lib/loxoui.css';
 @plugin '@tailwindcss/forms';
 @plugin '@tailwindcss/typography';
