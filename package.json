@@ -1,7 +1,7 @@
 {
   "name": "loxoui",
   "description": "Tailwind Mobile UI Component Library for Svelte",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "license": "UNLICENSED",
   "homepage": "www.loxoui.dev",
   "keywords": [
