@@ -8,7 +8,7 @@ import DrawerTab from "./nav/drawer/DrawerTab.svelte";
 import Bottom from "./nav/bottom/Bottom.svelte";
 import BottomTab from "./nav/bottom/BottomTab.svelte";
 
-import "./loxoui.css";
+import LoxoUI from "./LoxoUI.svelte";
 
 export {
     Button,
@@ -17,4 +17,5 @@ export {
     DrawerTab,
     Bottom,
     BottomTab,
+    LoxoUI,
 }
