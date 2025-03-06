@@ -3,7 +3,7 @@
 	"version": "0.0.12",
 	"scripts": {
 		"dev": "vite dev",
-		"build": "vite build && npm run prepack",
+		"build": "vite build && npm run prepack && npx @tailwindcss/cli -i ./src/lib/loxoui.css -o ./dist/loxoui.css",
 		"preview": "vite preview",
 		"prepare": "svelte-kit sync || echo ''",
 		"prepack": "svelte-kit sync && svelte-package",
