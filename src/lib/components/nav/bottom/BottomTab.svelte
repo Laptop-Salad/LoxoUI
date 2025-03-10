@@ -7,13 +7,13 @@
 	let classes = "";
 
 	if (active) {
-		classes += " font-bold bg-slate-200/50 rounded-lg";
+		classes += " bg-slate-200/50";
 	}
 </script>
 
 <a
 	href="{href}"
-	class="{classes} pt-1.5 w-16 hover:font-bold"
+	class="{classes} pt-1.5 w-16 hover:bg-slate-200/50 rounded-lg"
 	on:mouseover={() => hovering = true}
 	on:mouseout={() => hovering = false}
 	on:focus={() => hovering = true}
