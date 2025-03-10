@@ -22,7 +22,7 @@
     </Card>
 
     <Bottom>
-        <BottomTab icon="fa-newspaper">Feed</BottomTab>
+        <BottomTab icon="fa-newspaper" active={true}>Feed</BottomTab>
         <BottomTab icon="fa-house">Home</BottomTab>
         <BottomTab icon="fa-bell">Notifications</BottomTab>
     </Bottom>

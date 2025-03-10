@@ -7,7 +7,7 @@
 	let classes = "";
 
 	if (active) {
-		classes += " font-bold";
+		classes += " font-bold bg-slate-200/50 rounded-lg";
 	}
 </script>
 
