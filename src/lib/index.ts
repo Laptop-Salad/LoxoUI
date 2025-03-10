@@ -15,6 +15,8 @@ import Separator from "$lib/components/separator/Separator.svelte";
 
 import Heading from "$lib/components/heading/Heading.svelte";
 
+import Card from "$lib/components/card/Card.svelte";
+
 export {
     Button,
     Pill,
@@ -22,6 +24,8 @@ export {
     Drawer,
     DrawerTab,
     DrawerGroup,
+
+    Card,
 
     Bottom,
     BottomTab,
