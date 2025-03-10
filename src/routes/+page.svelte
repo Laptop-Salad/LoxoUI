@@ -13,10 +13,16 @@
     from "$lib";
 
     import DrawerGroup from "$lib/components/nav/drawer/DrawerGroup.svelte";
-    import InputGroup from "$lib/components/input/InputGroup.svelte";
+    import InputGroup from "$lib/components/form/InputGroup.svelte";
+    import Select from "$lib/components/form/select/Select.svelte";
+    import SelectOption from "$lib/components/form/select/SelectOption.svelte";
+    import Checkbox from "$lib/components/form/checkbox/Checkbox.svelte";
+    import CheckboxGroup from "$lib/components/form/checkbox/CheckboxGroup.svelte";
 
     let name = $state('');
-
+    let favouriteColour = $state('');
+    let likesSvelte = $state(false);
+    let favouriteFruits = $state([]);
 </script>
 
 <div class="p-5">
@@ -39,10 +45,33 @@
         </Card>
 
         <InputGroup
-            bind:value={name}
             label="Name"
             description="Name of person viewing this page."
-        />
+        >
+            <Input bind:value={name} />
+        </InputGroup>
+
+        <InputGroup
+            label="Colour"
+            description="Your favourite colour."
+        >
+            <Select bind:value={favouriteColour}>
+                <SelectOption value="">I dont have one</SelectOption>
+                <SelectOption value="Sky">Sky</SelectOption>
+                <SelectOption value="Green">Green</SelectOption>
+            </Select>
+        </InputGroup>
+
+        <div>
+            <Checkbox bind:checked={likesSvelte} label="Likes Svelte" />
+        </div>
+
+        <CheckboxGroup
+            label="Favourite Fruits"
+            description="Fruits that you like most."
+        >
+            <Checkbox label="Likes Svelte" />
+        </CheckboxGroup>
     </div>
 
     <Bottom>

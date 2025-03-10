@@ -3,14 +3,14 @@
 
     export let label = '';
     export let description = '';
-    export let value;
 </script>
 
 <div>
     {#if label !== undefined}
         <InputLabel {label}>
             <InputDescription {description} />
-            <Input bind:value {...$$restProps} />
+
+            <slot></slot>
         </InputLabel>
     {/if}
 </div>
