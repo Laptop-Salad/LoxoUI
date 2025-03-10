@@ -1,6 +1,6 @@
 <script>
     import {Bottom, BottomTab, Drawer, DrawerTab, Heading, Pill, Separator} from "$lib";
-    import DrawerGroup from "$lib/nav/drawer/DrawerGroup.svelte";
+    import DrawerGroup from "$lib/components/nav/drawer/DrawerGroup.svelte";
 </script>
 
 <div class="p-5">
@@ -16,6 +16,8 @@
     </Drawer>
 
     <Heading>Feed</Heading>
+
+    <Pill colour="sky" size="sm">Sky</Pill>
 
     <Bottom>
         <BottomTab icon="fa-newspaper">Feed</BottomTab>

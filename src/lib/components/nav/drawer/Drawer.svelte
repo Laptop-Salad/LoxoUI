@@ -1,15 +1,17 @@
 <script>
-	import Button from '../../button/Button.svelte';
+	import Button from '$lib/components/button/Button.svelte';
+	import ClassBuilder from "$lib/helpers/ClassBuilder.js";
 
 	export let colour = "base";
 	export let inverse = false;
 	export let show = false;
 
-	let classes = '';
-
-	classes += colour + '-text-inverse ' + colour + '-bg';
-
-	if (inverse) { classes += " inverse"; }
+	let classes = ClassBuilder
+			.new()
+			.setTextColour(colour)
+			.setBgColour(colour)
+			.setInverse(inverse)
+			.getClasses();
 
 	function toggleShow() {
 		show = !show;

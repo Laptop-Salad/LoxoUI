@@ -1,12 +1,15 @@
 <script>
+	import ClassBuilder from "$lib/helpers/ClassBuilder.js";
+
 	export let colour = "base";
 	export let inverse = false;
 
-	let classes = '';
-
-	classes += colour + '-text-inverse ' + colour + '-bg';
-
-	if (inverse) { classes += " inverse"; }
+	let classes = ClassBuilder
+			.new()
+			.setTextColour(colour)
+			.setBgColour(colour)
+			.setInverse(inverse)
+			.getClasses();
 </script>
 
 <nav class="{classes} fixed bottom-0 left-0 w-full py-1 px-2">
