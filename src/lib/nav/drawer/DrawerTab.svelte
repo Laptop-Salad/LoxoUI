@@ -25,7 +25,7 @@
 		on:blur={() => hovering = false}
 		on:click={() => closeDrawer()}
 	>
-		<div class="flex items-center space-x-4 p-2 hover:bg-gray-400/25 rounded-lg">
+		<div class="flex items-center space-x-4 p-2 hover:bg-gray-400/25 focus:bg-gray-400/25 rounded-lg">
 			<i
 				class:fa-solid={hovering || active}
 				class:fa-regular={!hovering && !active}

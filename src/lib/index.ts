@@ -4,6 +4,7 @@ import Pill from "./pill/Pill.svelte";
 
 import Drawer from "./nav/drawer/Drawer.svelte";
 import DrawerTab from "./nav/drawer/DrawerTab.svelte";
+import DrawerGroup from "$lib/nav/drawer/DrawerGroup.svelte";
 
 import Bottom from "./nav/bottom/Bottom.svelte";
 import BottomTab from "./nav/bottom/BottomTab.svelte";
@@ -17,8 +18,11 @@ import Heading from "./heading/Heading.svelte";
 export {
     Button,
     Pill,
+
     Drawer,
     DrawerTab,
+    DrawerGroup,
+
     Bottom,
     BottomTab,
     LoxoUI,
