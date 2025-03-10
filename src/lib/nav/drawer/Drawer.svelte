@@ -1,12 +1,13 @@
 <script>
-	import Button from '../../Button.svelte';
+	import Button from '../../button/Button.svelte';
 
 	export let colour = "base";
 	export let inverse = false;
+	export let show = false;
 
-	let show = false;
+	let classes = '';
 
-	let classes = ` ${colour}`;
+	classes += colour + '-text-inverse ' + colour + '-bg';
 
 	if (inverse) { classes += " inverse"; }
 
@@ -32,7 +33,7 @@
 				<i class="fa-solid fa-xmark"></i>
 			</Button>
 
-			<div class="space-y-4 p-3">
+			<div class="space-y-2 mt-4">
 				<slot></slot>
 			</div>
 		</nav>

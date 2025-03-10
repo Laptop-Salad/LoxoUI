@@ -2,75 +2,512 @@
 @plugin '@tailwindcss/forms';
 
 @layer loxoui {
-    .red { @apply text-red-600 bg-red-200;}
-    .red.inverse { @apply text-red-200 bg-red-600;}
 
-    .orange { @apply text-orange-600 bg-orange-200;}
-    .orange.inverse { @apply text-orange-200 bg-orange-600;}
+    /** Red **/
 
-    .amber { @apply text-amber-600 bg-amber-200;}
-    .amber.inverse { @apply text-amber-200 bg-amber-600;}
+    .red-text { @apply text-red-600; }
 
-    .yellow { @apply text-yellow-600 bg-yellow-200;}
-    .yellow.inverse { @apply text-yellow-200 bg-yellow-600;}
+    .red-text.inverse { @apply text-red-200; }
 
-    .lime { @apply text-lime-600 bg-lime-200;}
-    .lime.inverse { @apply text-lime-200 bg-lime-600;}
+    .red-text-inverse { @apply text-red-200; }
 
-    .green { @apply text-green-600 bg-green-200;}
-    .green.inverse { @apply text-green-200 bg-green-600;}
 
-    .emerald { @apply text-emerald-600 bg-emerald-200;}
-    .emerald.inverse { @apply text-emerald-200 bg-emerald-600;}
+    .red-bg { @apply bg-red-600; }
 
-    .teal { @apply text-teal-600 bg-teal-200;}
-    .teal.inverse { @apply text-teal-200 bg-teal-600;}
+    .red-bg.inverse { @apply bg-red-200; }
 
-    .cyan { @apply text-cyan-600 bg-cyan-200;}
-    .cyan.inverse { @apply text-cyan-200 bg-cyan-600;}
+    .red-bg-inverse { @apply bg-red-200; }
 
-    .cyan { @apply text-cyan-600 bg-cyan-200;}
-    .cyan.inverse { @apply text-cyan-200 bg-cyan-600;}
 
-    .sky { @apply text-sky-600 bg-sky-200;}
-    .sky.inverse { @apply text-sky-200 bg-sky-600;}
+    .red-border { @apply border-red-600; }
 
-    .blue { @apply text-blue-600 bg-blue-200;}
-    .blue.inverse { @apply text-blue-200 bg-blue-600;}
+    .red-border.inverse { @apply border-red-200; }
 
-    .indigo { @apply text-indigo-600 bg-indigo-200;}
-    .indigo.inverse { @apply text-indigo-200 bg-indigo-600;}
+    .red-border-inverse { @apply border-red-200; }
 
-    .violet { @apply text-violet-600 bg-violet-200;}
-    .violet.inverse { @apply text-violet-200 bg-violet-600;}
+    /** Orange **/
 
-    .purple { @apply text-purple-600 bg-purple-200;}
-    .purple.inverse { @apply text-purple-200 bg-purple-600;}
+    .orange-text { @apply text-orange-600; }
 
-    .fuchsia { @apply text-fuchsia-600 bg-fuchsia-200;}
-    .fuchsia.inverse { @apply text-fuchsia-200 bg-fuchsia-600;}
+    .orange-text.inverse { @apply text-orange-200; }
 
-    .pink { @apply text-pink-600 bg-pink-200;}
-    .pink.inverse { @apply text-pink-200 bg-pink-600;}
+    .orange-text-inverse { @apply text-orange-200; }
 
-    .rose { @apply text-rose-600 bg-rose-200;}
-    .rose.inverse { @apply text-rose-200 bg-rose-600;}
 
-    .slate { @apply text-slate-600 bg-slate-200;}
-    .slate.inverse { @apply text-slate-200 bg-slate-600;}
+    .orange-bg { @apply bg-orange-600; }
 
-    .gray { @apply text-gray-600 bg-gray-200;}
-    .gray.inverse { @apply text-gray-200 bg-gray-600;}
+    .orange-bg.inverse { @apply bg-orange-200; }
 
-    .zinc { @apply text-zinc-600 bg-zinc-200;}
-    .zinc.inverse { @apply text-zinc-200 bg-zinc-600;}
+    .orange-bg-inverse { @apply bg-orange-200; }
 
-    .neutral { @apply text-neutral-600 bg-neutral-200;}
-    .neutral.inverse { @apply text-neutral-200 bg-neutral-600;}
 
-    .stone { @apply text-stone-600 bg-stone-200;}
-    .stone.inverse { @apply text-stone-200 bg-stone-600;}
+    .orange-border { @apply border-orange-600; }
 
-    .base { @apply bg-black text-white;}
-    .base.inverse { @apply bg-white text-black;}
+    .orange-border.inverse { @apply border-orange-200; }
+
+    .orange-border-inverse { @apply border-orange-200; }
+
+    /** Amber **/
+
+    .amber-text { @apply text-amber-600; }
+
+    .amber-text.inverse { @apply text-amber-200; }
+
+    .amber-text-inverse { @apply text-amber-200; }
+
+
+    .amber-bg { @apply bg-amber-600; }
+
+    .amber-bg.inverse { @apply bg-amber-200; }
+
+    .amber-bg-inverse { @apply bg-amber-200; }
+
+
+    .amber-border { @apply border-amber-600; }
+
+    .amber-border.inverse { @apply border-amber-200; }
+
+    .amber-border-inverse { @apply border-amber-200; }
+
+    /** Yellow **/
+
+    .yellow-text { @apply text-yellow-600; }
+
+    .yellow-text.inverse { @apply text-yellow-200; }
+
+    .yellow-text-inverse { @apply text-yellow-200; }
+
+
+    .yellow-bg { @apply bg-yellow-600; }
+
+    .yellow-bg.inverse { @apply bg-yellow-200; }
+
+    .yellow-bg-inverse { @apply bg-yellow-200; }
+
+
+    .yellow-border { @apply border-yellow-600; }
+
+    .yellow-border.inverse { @apply border-yellow-200; }
+
+    .yellow-border-inverse { @apply border-yellow-200; }
+
+    /** Lime **/
+
+    .lime-text { @apply text-lime-600; }
+
+    .lime-text.inverse { @apply text-lime-200; }
+
+    .lime-text-inverse { @apply text-lime-200; }
+
+
+    .lime-bg { @apply bg-lime-600; }
+
+    .lime-bg.inverse { @apply bg-lime-200; }
+
+    .lime-bg-inverse { @apply bg-lime-200; }
+
+
+    .lime-border { @apply border-lime-600; }
+
+    .lime-border.inverse { @apply border-lime-200; }
+
+    .lime-border-inverse { @apply border-lime-200; }
+
+    /** Green **/
+
+    .green-text { @apply text-green-600; }
+
+    .green-text.inverse { @apply text-green-200; }
+
+    .green-text-inverse { @apply text-green-200; }
+
+
+    .green-bg { @apply bg-green-600; }
+
+    .green-bg.inverse { @apply bg-green-200; }
+
+    .green-bg-inverse { @apply bg-green-200; }
+
+
+    .green-border { @apply border-green-600; }
+
+    .green-border.inverse { @apply border-green-200; }
+
+    .green-border-inverse { @apply border-green-200; }
+
+    /** Emerald **/
+
+    .emerald-text { @apply text-emerald-600; }
+
+    .emerald-text.inverse { @apply text-emerald-200; }
+
+    .emerald-text-inverse { @apply text-emerald-200; }
+
+
+    .emerald-bg { @apply bg-emerald-600; }
+
+    .emerald-bg.inverse { @apply bg-emerald-200; }
+
+    .emerald-bg-inverse { @apply bg-emerald-200; }
+
+
+    .emerald-border { @apply border-emerald-600; }
+
+    .emerald-border.inverse { @apply border-emerald-200; }
+
+    .emerald-border-inverse { @apply border-emerald-200; }
+
+    /** Teal **/
+
+    .teal-text { @apply text-teal-600; }
+
+    .teal-text.inverse { @apply text-teal-200; }
+
+    .teal-text-inverse { @apply text-teal-200; }
+
+
+    .teal-bg { @apply bg-teal-600; }
+
+    .teal-bg.inverse { @apply bg-teal-200; }
+
+    .teal-bg-inverse { @apply bg-teal-200; }
+
+
+    .teal-border { @apply border-teal-600; }
+
+    .teal-border.inverse { @apply border-teal-200; }
+
+    .teal-border-inverse { @apply border-teal-200; }
+
+    /** Cyan **/
+
+    .cyan-text { @apply text-cyan-600; }
+
+    .cyan-text.inverse { @apply text-cyan-200; }
+
+    .cyan-text-inverse { @apply text-cyan-200; }
+
+
+    .cyan-bg { @apply bg-cyan-600; }
+
+    .cyan-bg.inverse { @apply bg-cyan-200; }
+
+    .cyan-bg-inverse { @apply bg-cyan-200; }
+
+
+    .cyan-border { @apply border-cyan-600; }
+
+    .cyan-border.inverse { @apply border-cyan-200; }
+
+    .cyan-border-inverse { @apply border-cyan-200; }
+
+    /** Sky **/
+
+    .sky-text { @apply text-sky-600; }
+
+    .sky-text.inverse { @apply text-sky-200; }
+
+    .sky-text-inverse { @apply text-sky-200; }
+
+
+    .sky-bg { @apply bg-sky-600; }
+
+    .sky-bg.inverse { @apply bg-sky-200; }
+
+    .sky-bg-inverse { @apply bg-sky-200; }
+
+
+    .sky-border { @apply border-sky-600; }
+
+    .sky-border.inverse { @apply border-sky-200; }
+
+    .sky-border-inverse { @apply border-sky-200; }
+
+    /** Blue **/
+
+    .blue-text { @apply text-blue-600; }
+
+    .blue-text.inverse { @apply text-blue-200; }
+
+    .blue-text-inverse { @apply text-blue-200; }
+
+
+    .blue-bg { @apply bg-blue-600; }
+
+    .blue-bg.inverse { @apply bg-blue-200; }
+
+    .blue-bg-inverse { @apply bg-blue-200; }
+
+
+    .blue-border { @apply border-blue-600; }
+
+    .blue-border.inverse { @apply border-blue-200; }
+
+    .blue-border-inverse { @apply border-blue-200; }
+
+    /** Indigo **/
+
+    .indigo-text { @apply text-indigo-600; }
+
+    .indigo-text.inverse { @apply text-indigo-200; }
+
+    .indigo-text-inverse { @apply text-indigo-200; }
+
+
+    .indigo-bg { @apply bg-indigo-600; }
+
+    .indigo-bg.inverse { @apply bg-indigo-200; }
+
+    .indigo-bg-inverse { @apply bg-indigo-200; }
+
+
+    .indigo-border { @apply border-indigo-600; }
+
+    .indigo-border.inverse { @apply border-indigo-200; }
+
+    .indigo-border-inverse { @apply border-indigo-200; }
+
+    /** Violet **/
+
+    .violet-text { @apply text-violet-600; }
+
+    .violet-text.inverse { @apply text-violet-200; }
+
+    .violet-text-inverse { @apply text-violet-200; }
+
+
+    .violet-bg { @apply bg-violet-600; }
+
+    .violet-bg.inverse { @apply bg-violet-200; }
+
+    .violet-bg-inverse { @apply bg-violet-200; }
+
+
+    .violet-border { @apply border-violet-600; }
+
+    .violet-border.inverse { @apply border-violet-200; }
+
+    .violet-border-inverse { @apply border-violet-200; }
+
+    /** Purple **/
+
+    .purple-text { @apply text-purple-600; }
+
+    .purple-text.inverse { @apply text-purple-200; }
+
+    .purple-text-inverse { @apply text-purple-200; }
+
+
+    .purple-bg { @apply bg-purple-600; }
+
+    .purple-bg.inverse { @apply bg-purple-200; }
+
+    .purple-bg-inverse { @apply bg-purple-200; }
+
+
+    .purple-border { @apply border-purple-600; }
+
+    .purple-border.inverse { @apply border-purple-200; }
+
+    .purple-border-inverse { @apply border-purple-200; }
+
+    /** Fuchsia **/
+
+    .fuchsia-text { @apply text-fuchsia-600; }
+
+    .fuchsia-text.inverse { @apply text-fuchsia-200; }
+
+    .fuchsia-text-inverse { @apply text-fuchsia-200; }
+
+
+    .fuchsia-bg { @apply bg-fuchsia-600; }
+
+    .fuchsia-bg.inverse { @apply bg-fuchsia-200; }
+
+    .fuchsia-bg-inverse { @apply bg-fuchsia-200; }
+
+
+    .fuchsia-border { @apply border-fuchsia-600; }
+
+    .fuchsia-border.inverse { @apply border-fuchsia-200; }
+
+    .fuchsia-border-inverse { @apply border-fuchsia-200; }
+
+    /** Pink **/
+
+    .pink-text { @apply text-pink-600; }
+
+    .pink-text.inverse { @apply text-pink-200; }
+
+    .pink-text-inverse { @apply text-pink-200; }
+
+
+    .pink-bg { @apply bg-pink-600; }
+
+    .pink-bg.inverse { @apply bg-pink-200; }
+
+    .pink-bg-inverse { @apply bg-pink-200; }
+
+
+    .pink-border { @apply border-pink-600; }
+
+    .pink-border.inverse { @apply border-pink-200; }
+
+    .pink-border-inverse { @apply border-pink-200; }
+
+    /** Rose **/
+
+    .rose-text { @apply text-rose-600; }
+
+    .rose-text.inverse { @apply text-rose-200; }
+
+    .rose-text-inverse { @apply text-rose-200; }
+
+
+    .rose-bg { @apply bg-rose-600; }
+
+    .rose-bg.inverse { @apply bg-rose-200; }
+
+    .rose-bg-inverse { @apply bg-rose-200; }
+
+
+    .rose-border { @apply border-rose-600; }
+
+    .rose-border.inverse { @apply border-rose-200; }
+
+    .rose-border-inverse { @apply border-rose-200; }
+
+    /** Slate **/
+
+    .slate-text { @apply text-slate-600; }
+
+    .slate-text.inverse { @apply text-slate-200; }
+
+    .slate-text-inverse { @apply text-slate-200; }
+
+
+    .slate-bg { @apply bg-slate-600; }
+
+    .slate-bg.inverse { @apply bg-slate-200; }
+
+    .slate-bg-inverse { @apply bg-slate-200; }
+
+
+    .slate-border { @apply border-slate-600; }
+
+    .slate-border.inverse { @apply border-slate-200; }
+
+    .slate-border-inverse { @apply border-slate-200; }
+
+    /** Gray **/
+
+    .gray-text { @apply text-gray-600; }
+
+    .gray-text.inverse { @apply text-gray-200; }
+
+    .gray-text-inverse { @apply text-gray-200; }
+
+
+    .gray-bg { @apply bg-gray-600; }
+
+    .gray-bg.inverse { @apply bg-gray-200; }
+
+    .gray-bg-inverse { @apply bg-gray-200; }
+
+
+    .gray-border { @apply border-gray-600; }
+
+    .gray-border.inverse { @apply border-gray-200; }
+
+    .gray-border-inverse { @apply border-gray-200; }
+
+    /** Zinc **/
+
+    .zinc-text { @apply text-zinc-600; }
+
+    .zinc-text.inverse { @apply text-zinc-200; }
+
+    .zinc-text-inverse { @apply text-zinc-200; }
+
+
+    .zinc-bg { @apply bg-zinc-600; }
+
+    .zinc-bg.inverse { @apply bg-zinc-200; }
+
+    .zinc-bg-inverse { @apply bg-zinc-200; }
+
+
+    .zinc-border { @apply border-zinc-600; }
+
+    .zinc-border.inverse { @apply border-zinc-200; }
+
+    .zinc-border-inverse { @apply border-zinc-200; }
+
+    /** Neutral **/
+
+    .neutral-text { @apply text-neutral-600; }
+
+    .neutral-text.inverse { @apply text-neutral-200; }
+
+    .neutral-text-inverse { @apply text-neutral-200; }
+
+
+    .neutral-bg { @apply bg-neutral-600; }
+
+    .neutral-bg.inverse { @apply bg-neutral-200; }
+
+    .neutral-bg-inverse { @apply bg-neutral-200; }
+
+
+    .neutral-border { @apply border-neutral-600; }
+
+    .neutral-border.inverse { @apply border-neutral-200; }
+
+    .neutral-border-inverse { @apply border-neutral-200; }
+
+    /** Stone **/
+
+    .stone-text { @apply text-stone-600; }
+
+    .stone-text.inverse { @apply text-stone-200; }
+
+    .stone-text-inverse { @apply text-stone-200; }
+
+
+    .stone-bg { @apply bg-stone-600; }
+
+    .stone-bg.inverse { @apply bg-stone-200; }
+
+    .stone-bg-inverse { @apply bg-stone-200; }
+
+
+    .stone-border { @apply border-stone-600; }
+
+    .stone-border.inverse { @apply border-stone-200; }
+
+    .stone-border-inverse { @apply border-stone-200; }
+
+    /** Base **/
+
+    .base-text { @apply text-black; }
+
+    .base-text.inverse { @apply text-white; }
+
+    .base-text-inverse { @apply text-white; }
+
+
+    .base-bg { @apply bg-black; }
+
+    .base-bg.inverse { @apply bg-white; }
+
+    .base-bg-inverse { @apply bg-white; }
+
+
+    .base-border { @apply border-black; }
+
+    .base-border.inverse { @apply border-white; }
+
+    .base-border-inverse { @apply border-white; }
+
 }
+
