@@ -3,7 +3,9 @@
 	export let inverse = false;
 	export let classProp = "";
 
-	let classes = `${colour} ${classProp}`;
+	let classes = `${classProp}`;
+
+	classes += colour + '-text-inverse ' + colour + '-bg';
 
 	if (inverse) {
 		classes += " inverse";

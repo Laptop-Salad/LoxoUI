@@ -1,9 +1,10 @@
 <script>
-    import {Drawer, DrawerTab, Heading, Separator} from "$lib";
+    import {Drawer, DrawerTab, Heading, Pill, Separator} from "$lib";
 </script>
 
+<Pill>Hello</Pill>
 
-<Drawer show="{true}">
+<Drawer show="{false}">
     <DrawerTab>Installation</DrawerTab>
     <Separator></Separator>
     <Heading classes="ms-5">Components</Heading>
