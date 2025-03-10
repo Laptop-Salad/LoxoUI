@@ -509,5 +509,7 @@
 
     .base-border-inverse { @apply border-white; }
 
+    /** Muted **/
+    .muted-border { @apply border-slate-200}
 }
 

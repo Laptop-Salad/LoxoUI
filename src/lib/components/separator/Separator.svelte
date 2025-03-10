@@ -1,12 +1,6 @@
 <script>
     export let vertical = false;
-    export let colour = 'neutral';
-    export let inverse = false;
-    let classes = 'block ';
-
-    if (inverse) { classes += ' inverse';}
-
-    colour += '-border';
+    let classes = 'block muted-border ';
 
     if (vertical) {
         classes += 'border-s w-0';
@@ -15,4 +9,4 @@
     }
 </script>
 
-<div class="{classes} {colour}">&nbsp;</div>
+<div class="{classes}">&nbsp;</div>

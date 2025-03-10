@@ -5,6 +5,6 @@
     classes += classProp;
 </script>
 
-<div class="{classes} p-5 border rounded-lg border-slate-200 shadow-sm">
+<div class="{classes} p-5 border rounded-lg muted-border shadow-sm">
     <slot></slot>
 </div>
