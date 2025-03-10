@@ -24,7 +24,7 @@
 	<div
 		class:absolute={show}
 		class:hidden={!show}
-		class="top-0 left-0 w-full h-full bg-black/25"
+		class="top-0 left-0 w-full h-full bg-black/25 z-20"
 	>
 		<nav
 			class="{classes} top-0 left-0 h-screen w-[80vw] p-2"

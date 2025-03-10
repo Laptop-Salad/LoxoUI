@@ -2,7 +2,9 @@
 	export let colour = "base";
 	export let inverse = false;
 
-	let classes = ` ${colour}`;
+	let classes = '';
+
+	classes += colour + '-text-inverse ' + colour + '-bg';
 
 	if (inverse) { classes += " inverse"; }
 </script>
