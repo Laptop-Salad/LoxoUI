@@ -17,6 +17,11 @@ import Heading from "$lib/components/heading/Heading.svelte";
 
 import Card from "$lib/components/card/Card.svelte";
 
+import Input from "$lib/components/input/Input.svelte";
+import InputGroup from "$lib/components/input/InputGroup.svelte";
+import InputDescription from "$lib/components/input/InputDescription.svelte";
+import InputLabel from "$lib/components/input/InputLabel.svelte";
+
 export {
     Button,
     Pill,
@@ -26,6 +31,11 @@ export {
     DrawerGroup,
 
     Card,
+
+    Input,
+    InputGroup,
+    InputDescription,
+    InputLabel,
 
     Bottom,
     BottomTab,

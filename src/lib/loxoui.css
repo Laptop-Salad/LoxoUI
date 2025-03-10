@@ -511,5 +511,6 @@
 
     /** Muted **/
     .muted-border { @apply border-slate-200}
+    .muted-text { @apply text-slate-400}
 }
 
