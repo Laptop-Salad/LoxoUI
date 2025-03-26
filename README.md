@@ -6,7 +6,7 @@ LoxoUI is a svelte component library built specifically for mobile that uses tai
 
 ## Installation
 ```
-npm i loxoui@0.1.0
+npm i loxoui@0.1.2
 ```
 
 Include the following in the head section of app.html:
