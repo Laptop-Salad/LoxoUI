@@ -12,7 +12,7 @@
 			.getClasses();
 </script>
 
-<nav class="{classes} fixed bottom-0 muted-border border-t left-0 w-full py-1 px-2">
+<nav class="{classes} sticky bottom-0 muted-border border-t left-0 w-full py-1 px-2">
 	<div class="flex justify-between">
 		<slot></slot>
 	</div>
