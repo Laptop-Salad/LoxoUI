@@ -28,6 +28,8 @@ import SelectOption from "$lib/components/form/select/SelectOption.svelte";
 import Checkbox from "$lib/components/form/checkbox/Checkbox.svelte";
 import CheckboxGroup from "$lib/components/form/checkbox/CheckboxGroup.svelte";
 
+import Container from "$lib/components/Container.svelte";
+
 export {
     Button,
     Pill,
@@ -55,4 +57,6 @@ export {
 
     Select,
     SelectOption,
+
+    Container,
 }
