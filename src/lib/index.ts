@@ -22,6 +22,12 @@ import InputGroup from "$lib/components/form/InputGroup.svelte";
 import InputDescription from "$lib/components/form/InputDescription.svelte";
 import InputLabel from "$lib/components/form/InputLabel.svelte";
 
+import Select from "$lib/components/form/select/Select.svelte";
+import SelectOption from "$lib/components/form/select/SelectOption.svelte";
+
+import Checkbox from "$lib/components/form/checkbox/Checkbox.svelte";
+import CheckboxGroup from "$lib/components/form/checkbox/CheckboxGroup.svelte";
+
 export {
     Button,
     Pill,
@@ -39,7 +45,14 @@ export {
 
     Bottom,
     BottomTab,
+
     LoxoUI,
     Separator,
     Heading,
+
+    Checkbox,
+    CheckboxGroup,
+
+    Select,
+    SelectOption,
 }
