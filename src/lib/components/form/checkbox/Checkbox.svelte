@@ -1,5 +1,6 @@
-<script>
-    export let checked = null;
+<script lang="ts">
+    export let checked: boolean | null = null;
+    export let group: string[] | null = null;
     export let label = '';
 </script>
 
@@ -8,6 +9,7 @@
         class="border muted-border rounded p-2"
         type="checkbox"
         bind:checked
+        bind:group
         {...$$restProps}
     />
 

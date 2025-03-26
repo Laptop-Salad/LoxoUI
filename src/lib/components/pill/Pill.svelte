@@ -5,7 +5,6 @@
 	export let size = "base";
 	export let inverse = false;
 	export let bordered = false;
-	export let classProp = "";
 
 	let builder = ClassBuilder
 			.new()
