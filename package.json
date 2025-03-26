@@ -1,6 +1,6 @@
 {
   "name": "loxoui",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "scripts": {
     "dev": "vite dev",
     "build": "vite build && npm run prepack && npx @tailwindcss/cli@4 -i ./src/lib/loxoui.css -o ./dist/loxoui.css",
