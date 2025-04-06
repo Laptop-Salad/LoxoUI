@@ -50,6 +50,15 @@ export default class ClassBuilder {
         return this;
     }
 
+    /**
+     * @param {string} classProp
+     */
+    setClassProp(classProp) {
+        this.classProp = classProp;
+
+        return this;
+    }
+
     buildSize() {
         switch (this.size) {
             case 'sm': return 'p-2 text-sm';
@@ -101,6 +110,7 @@ export default class ClassBuilder {
         return this.borderColour + '-border';
     }
 
+
     static new() { return new ClassBuilder(); }
 
     getClasses() {
@@ -127,6 +137,8 @@ export default class ClassBuilder {
                 classes.push(this.buildBorderColour());
             }
         }
+
+        classes.push(this.classProp);
 
         return classes.join(" ")
     }

@@ -15,13 +15,18 @@
         InputGroup,
         Bottom,
         BottomTab,
-        Button, Container,
+        Button,
+        Container,
+        Toast,
+        toast
     } from "$lib";
 
     let name = $state('');
     let favouriteColour = $state('');
     let likesSvelte = $state(false);
     let favouriteFruits: string[] = $state([]);
+
+    toast('Hello!');
 </script>
 
 <Container>
@@ -94,6 +99,8 @@
         <Button colour="emerald" on:click={() => console.log(favouriteFruits)}>Get Favourite Fruits</Button>
     </div>
 </Container>
+
+<Toast />
 
 <Bottom>
     <BottomTab icon="fa-newspaper" active={true}>Feed</BottomTab>

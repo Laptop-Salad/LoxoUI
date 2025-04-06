@@ -30,6 +30,9 @@ import CheckboxGroup from "$lib/components/form/checkbox/CheckboxGroup.svelte";
 
 import Container from "$lib/components/Container.svelte";
 
+import Toast from "$lib/components/toast/Toast.svelte";
+import {toastStore, toast} from "$lib/components/toast/toast.ts";
+
 export {
     Button,
     Pill,
@@ -59,4 +62,8 @@ export {
     SelectOption,
 
     Container,
+
+    Toast,
+    toastStore,
+    toast,
 }
